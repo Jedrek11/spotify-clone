@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
+import Player from "./components/Player";
 
 const App = () => {
   return (
@@ -7,8 +8,25 @@ const App = () => {
       <div className="h-[90%] flex">
         <Sidebar />
       </div>
+      <Player />
     </div>
   )
 }
 
 export default App
+
+
+
+
+
+// import React from "react";
+
+// // const App = () => {
+// //   return (
+// //     <div>
+
+// //     </div>
+// //   )
+// // }
+
+// // export default App
