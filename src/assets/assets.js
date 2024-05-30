@@ -82,7 +82,7 @@ export const albumsData = [
         name: "Top 50 Poland",
         image: img9,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#22543d"
+        bgColor:"#742a2a"
     },
     {   
         id:2,
