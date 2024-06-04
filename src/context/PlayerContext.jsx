@@ -11,6 +11,7 @@ const PlayerContextProvider = (props) => {
 
     const [track, setTrack] = useState(songsData[0]);
     const [playStatus, setPlayStatus] = useState(false);
+    const [volume, setVolume] = useState(50); // Domyślny poziom głośności
     const [time, setTime] = useState({
         currentTime: {
             second: 0,
@@ -22,6 +23,12 @@ const PlayerContextProvider = (props) => {
         }
     })
 
+    const formatTime = (time) => {
+        const minutes = time.minute < 10 ? `0${time.minute}` : time.minute;
+        const seconds = time.second < 10 ? `0${time.second}` : time.second;
+        return `${minutes}:${seconds}`;
+    }
+
     const play = () => {
         audioRef.current.play();
         setPlayStatus(true)
@@ -31,6 +38,11 @@ const PlayerContextProvider = (props) => {
         audioRef.current.pause();
         setPlayStatus(false)
     }
+
+    const handleVolumeChange = (newVolume) => {
+        setVolume(newVolume);
+        audioRef.current.volume = newVolume / 100;
+    };
 
     const playWithId = async (id) => {
         await setTrack(songsData[id]);
@@ -88,7 +100,11 @@ const PlayerContextProvider = (props) => {
         play, pause,
         playWithId,
         previous,next,
-        seekSong
+        seekSong,
+        volume,
+        setVolume,
+        handleVolumeChange,
+        formatTime,
     }
 
     return (

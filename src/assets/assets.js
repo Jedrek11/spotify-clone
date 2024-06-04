@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -117,66 +122,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "On & On",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        desc:"Cartoon, Jeja, Daniel Levi",
+        duration:"3:27"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Evergreen",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        desc:"Richy Mitch & The Coal Miners",
+        duration:"1:27"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Left hand free",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        desc:"alt-J",
+        duration:"2:53"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "i fell lost",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file:song4,
+        desc:"Aarin Hibell",
+        duration:"2:27"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Sun Models",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        file:song5,
+        desc:"ODESZA",
+        duration:"2:40"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        name: "Love Is A Long Road",
+        image: img14,
+        file:song6,
+        desc:"Tom Petty",
+        duration:"4:07"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Golden",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        file:song7,
+        desc:"Parade of Lights",
+        duration:"3:04"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Knockin'On Heaven's Door",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file:song8,
+        desc:"Bob Dylan",
+        duration:"2:29"
     }
 ]
