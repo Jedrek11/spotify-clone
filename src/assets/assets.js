@@ -79,42 +79,42 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Top 50 best songs around the world !",
         bgColor:"#2a4365"
     },
     {   
         id:1,
         name: "Top 50 Poland",
         image: img9,
-        desc:"Your weekly update of the most played tracks",
+        desc:"The best Polish hits !",
         bgColor:"#742a2a"
     },
     {   
         id:2,
         name: "Trending Poland",
         image: img10,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Trending in Poland Now",
         bgColor:"#742a2a"
     },
     {   
         id:3,
         name: "Trending Global",
         image: img16,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Trending around the World Now",
         bgColor:"#44337a"
     },
     {   
         id:4,
         name: "Mega Hits,",
         image: img11,
-        desc:"Your weekly update of the most played tracks",
+        desc:"The biggest hits on spotify",
         bgColor:"#234e52"
     },
     {   
         id:5,
         name: "Happy Favorites",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
+        desc:"The biggest cheerful songs on spotify",
         bgColor:"#744210"
     }
 ]

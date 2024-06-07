@@ -20,9 +20,9 @@ const Player = () => {
                 <img className="w-4 cursor-pointer" src={assets.shuffle_icon} alt="shuffle" /> {/* Na zmiane piosenka */}
                 <img onClick={previous} className="w-4 cursor-pointer" src={assets.prev_icon} alt="previuse" /> {/* Poprzednia piosenka */}
                 {playStatus
-                ?<img onClick={pause} className="w-4 cursor-pointer" src={assets.pause_icon} alt="stop" />
-                :<img onClick={play} className="w-4 cursor-pointer" src={assets.play_icon} alt="start" />
-                }                     
+                ?<img onClick={pause} className="w-4 cursor-pointer" src={assets.pause_icon} alt="stop" /> 
+                :<img onClick={play} className="w-4 cursor-pointer" src={assets.play_icon} alt="start" /> 
+                } {/* Start i Stop */}                    
                 <img onClick={next} className="w-4 cursor-pointer" src={assets.next_icon} alt="next" /> {/* Następna piosenka */}
                 <img className="w-4 cursor-pointer" src={assets.loop_icon} alt="loop" /> {/* Na okrągło piosenka */}
             </div>

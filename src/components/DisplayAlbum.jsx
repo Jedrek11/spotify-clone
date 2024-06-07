@@ -44,7 +44,7 @@ const DisplayAlbum = () => {
                         {item.name}
                     </p>
                     <p className="text-[15px]">{albumData.name}</p>
-                    <p className="text-[15px] hidden sm:block">7 days ago</p>
+                    <p className="text-[15px] hidden sm:block">15 days ago</p>
                     <p className="text-[15px] text-center">{item.duration}</p>
                 </div>
             ))
